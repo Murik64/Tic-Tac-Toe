@@ -1,0 +1,42 @@
+.app {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.board {
+    display: inline-block;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.game-info {
+    margin-top: 1rem;
+}
+
+.game-info div {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.game-info button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;}
